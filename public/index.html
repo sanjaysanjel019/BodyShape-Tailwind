@@ -7,11 +7,12 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 </head>
-<body>  
+<body>   
     <div class="header-img  ">
-        <div style="background: url('../assets/images/yoga.jpg');" class="w-full pb-80"> 
+        <div style="background: url('../assets/images/yoga.jpg'); object-fit: contain;" class="w-full pb-80"> 
         <div class="w-full flex justify-between  ">
             <div class="w-32  ">
                 <img src="../assets/images/BS_Logo_400x400.png"/>
@@ -25,11 +26,11 @@
                 
             </div>
         </div>
-        <div class="w-2/5  bg-red-300 opacity-75 absolute right-32 top-44 p-12 text-white font-sbd font-bold">
-            <div class="text-4xl opacity-100 ">
-                BodyShape für </br>Anfänger
+        <div class="w-2/5  bg-red-300 opacity-75 absolute right-32 top-44 p-12 text-white ">
+            <div class="text-6xl opacity-100  font-sbd font-bold ">
+                BodyShape für   Anfänger
             </div>
-            <div class="opacity-100">
+            <div class="opacity-100 font-allura text-3xl">
                 Stärke • Abnehmen • Ausdauer
             </div>
             <div>
@@ -38,7 +39,62 @@
             </div>
         </div> <!--Div for the absoute positioning-->
     </div>
+    <div class="bg-graycol-200 w-full p-10 flex">
+        <div class="  p-10 w-2/3 flex justify-around  text-iconsColors-200 ">
+            <div class="flex flex-col  cursor-pointer items-center  ">
+                <i class="fas fa-id-card mb-4 "></i>
+                <p class="font-sbd   font-normal text-white hover:text-iconsColors-200 ">Lorem Ipsum</p>
+               
+            </div>
+
+            <div class="flex flex-col  cursor-pointer  items-center ">
+                <i class="fas fa-id-card mb-4 "></i>
+                <p class="font-sbd text-white hover:text-iconsColors-200">Monochrome</p>
+            
+            </div>
+            <div class="flex flex-col  cursor-pointer items-center ">
+                <i class="fas fa-id-card mb-4 "></i>
+                <p class="font-sbd text-white hover:text-iconsColors-200">German Style</p>
+            
+            </div>
+            <div class="flex flex-col cursor-pointer items-center ">
+                <i class="fas fa-id-card mb-4 "></i>
+                <p class="font-sbd text-white hover:text-iconsColors-200">Wayback machine</p>
+            
+            </div>
+            <div class="flex flex-col  cursor-pointer items-center ">
+                <i class="fas fa-id-card mb-4 "></i>
+                <p class="font-sbd text-white hover:text-iconsColors-200">Free Justfied</p>
+            
+            </div>
+            
+        </div>
+        <div class=" mt-8 w-1/2 relative">
+        <button class="bg-iconsColors-200 px-16 py-4 rounded-md font-sbd text-white font-semibold text-3xl absolute right-10 "> JETZT MITMACHEN </button>
+    </div>
+    <!--Below DIV for three col labels-->
+   
     </div> <!--Main DIV-->
+
+    <div class=" bg-graycol-100 grid grid-cols-3 gap-4 p-10 overflow-hidden"">
+        <div class=" flex flex-col items-center">
+            <img src="https://source.unsplash.com/random/350x300" class="shadow-md rounded-md"/>
+            <span class="text-2xl font-normal   my-4"> Gesund abnehmen</span>
+            <p class="ml-12 mr-8 text-graycol-400 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam velit dolores ipsa voluptatem consectetur rem sequi eligendi, asperiores deserunt dolor eius ad nobis animi recusandae incidunt! Labore expedita totam ipsum!</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img src="https://source.unsplash.com/random/350x300" class="shadow-md rounded-md" />
+            <span class="text-2xl font-normal my-4"> Grundfitness aufbauen</span>
+            <p class="ml-12 mr-8 text-graycol-400 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam velit dolores ipsa voluptatem consectetur rem sequi
+                eligendi, asperiores deserunt dolor eius ad nobis animi recusandae incidunt! Labore expedita totam ipsum!</p>
+        </div>
+        <div class="flex flex-col items-center">
+            <img src="https://source.unsplash.com/random/350x300" class="shadow-md rounded-md" />
+            <span class="text-2xl font-normal   my-4"> Einsteigerfreundliche Rezepte</span>
+            <p class="ml-12 mr-8 text-graycol-400 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam velit dolores ipsa voluptatem consectetur rem sequi
+                eligendi, asperiores deserunt dolor eius ad nobis animi recusandae incidunt! Labore expedita totam ipsum!</p>
+        </div>
+    </div>
     
     </div>
 </body>
